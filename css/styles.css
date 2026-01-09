@@ -185,7 +185,7 @@ ul :hover {
     align-items: center;
     margin: 44px auto;
     gap: 10px;
-    width: 90%;    
+    padding: 20px;  
 }
 
 .notes-contain {
@@ -231,4 +231,115 @@ ul :hover {
     background-color: white;
     border-radius: 8px;    
 }
+
+.sect-2 {
+    background-color: #FFFFFF;
+}
+
+.root-solution {
+    display: flex;
+    width: 90%;
+    padding: 20px;
+    
+
+}
+
+.knowldege-logo {
+    margin-right: 30px;
+}
+
+.knowldege-logo img {
+    width: 250px;
+    height: 250px;
+}
+
+.knowledge-text-container {
+    margin-left: 20px;
+}
+
+.knowledge-text h3 {
+    font-size: 16px;
+    color: #30B868;
+}
+
+.knowledge-text h1 {
+    font-size: 48px;
+}
+
+.knowledge-text p {
+    font-size: 16px;
+    color: #627382;
+}
+
+.text-points {
+    margin-top: 40px;
+    gap: 16px;
+}
+
+.text-p {
+    display: flex;
+    align-items:center;
+    justify-content: left;
+    line-height: 30px;
+}
+
+.text-p img {
+    width: 20px;
+    height: 20px;
+}
+
+.text-p p {
+    font-size: 16px;
+}
+
+.root-ready {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 30px 30px;
+}
+
+.text-container-2 h1{
+    font-size: 48px;
+}
+
+.text-container-2 h4{
+    color: #627382;
+    font-size: 16px;
+}
+
+.btn-box-3-container {
+    display: flex;    
+    justify-content: center;
+}
+
+
+.btn-box-3 {
+    display: flex;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    background-color: #469165;
+    width: 251px;
+    height: 52px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    gap: 10px;
+}
+
+.btn-box-3 img {
+    width: 20px;
+    height: 20px;
+}
+
+.btn-box-3:hover {
+    background-color: #357a52;
+    cursor: pointer;
+}
+
+
+
 
