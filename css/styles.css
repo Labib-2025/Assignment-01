@@ -6,8 +6,8 @@
 
 
 .font-inter {
-  font-family: "Inter", sans-serif;  
-  font-optical-sizing: auto;  
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
 
 body {
@@ -18,8 +18,9 @@ body {
 header {
     width: 100%;
     margin: 0px auto;
-    padding: 16px 120px;
     font-size: 16px;
+    max-width: 1200px;
+    padding: 16px;
 }
 
 .banner-title {
@@ -29,9 +30,10 @@ header {
 
 .banner-sub-title {
     font-size: 18px;
-    color:#FFFFFF;
+    color: #FFFFFF;
     line-height: 24pt;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -48,7 +50,7 @@ ul {
 ul a {
     text-decoration: none;
     color: black;
-       
+
 }
 
 ul :hover {
@@ -63,7 +65,7 @@ ul :hover {
     background-color: #469165;
     color: #FFFFFF;
     border-radius: 4px;
-    border: none;    
+    border: none;
     width: 164px;
     height: 44px;
     padding: 0;
@@ -86,7 +88,7 @@ ul :hover {
     gap: 10px;
     justify-content: center;
     align-items: center;
-    font-weight:500;
+    font-weight: 500;
     height: 35px;
     width: 229px;
     margin: 0px auto;
@@ -102,14 +104,14 @@ ul :hover {
     background-image: url(../assets/herobg.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     height: 624px;
     padding: 70px 120px 134px;
 
     text-align: center;
 }
 
-.btn-box-root{
+.btn-box-root {
     margin-top: 32px;
     display: flex;
     justify-content: center;
@@ -137,7 +139,7 @@ ul :hover {
 
 .btn-box-1:hover {
     background-color: #357a52;
-    cursor: pointer;    
+    cursor: pointer;
 }
 
 .btn-box-2 {
@@ -156,12 +158,12 @@ ul :hover {
 
 .btn-box-2 img {
     width: 20px;
-    height: 20px;    
+    height: 20px;
 }
 
 .btn-box-2:hover {
     background-color: gray;
-    cursor: pointer;    
+    cursor: pointer;
 }
 
 .title-sect {
@@ -185,25 +187,30 @@ ul :hover {
     align-items: center;
     margin: 44px auto;
     gap: 10px;
-    padding: 20px;  
 }
 
 .notes-contain {
     margin-top: 44px;
 }
 
-.notes-contain{    
+main {
+    max-width: 1200px;
+    margin: 0px auto;
+
+}
+
+.notes-contain {
     text-align: center;
     align-items: center;
     justify-items: center;
 }
 
-.notes-contain h3{
+.notes-contain h3 {
     font-size: 24px;
     margin: 16px auto;
 }
 
-.notes-contain p{
+.notes-contain p {
     color: #627382;
 }
 
@@ -229,7 +236,7 @@ ul :hover {
     height: 300px;
     padding: 24px;
     background-color: white;
-    border-radius: 8px;    
+    border-radius: 8px;
 }
 
 .sect-2 {
@@ -240,7 +247,7 @@ ul :hover {
     display: flex;
     width: 90%;
     padding: 20px;
-    
+
 
 }
 
@@ -278,7 +285,7 @@ ul :hover {
 
 .text-p {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: left;
     line-height: 30px;
 }
@@ -301,17 +308,17 @@ ul :hover {
     padding: 30px 30px;
 }
 
-.text-container-2 h1{
+.text-container-2 h1 {
     font-size: 48px;
 }
 
-.text-container-2 h4{
+.text-container-2 h4 {
     color: #627382;
     font-size: 16px;
 }
 
 .btn-box-3-container {
-    display: flex;    
+    display: flex;
     justify-content: center;
 }
 
@@ -340,6 +347,46 @@ ul :hover {
     cursor: pointer;
 }
 
+footer {
+    background-color: #001931;
+}
 
+.ft-logo-link {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
 
+.footer-container {
+    max-width: 1200px;
+    margin: 0px auto;
+}
 
+.hr {
+    border: 1px solid #424a52;
+    margin-top: 10px;
+}
+
+.footer-title {
+    color: white;
+    font-size: 20px;
+}
+
+.footer-img img {
+    width: 25px;
+    margin-top: 10px;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+.footer-img {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-btn {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 30px;
+}
