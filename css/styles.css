@@ -6,9 +6,10 @@
 
 
 .font-inter {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;  
   font-optical-sizing: auto;  
 }
+
 
 header {
     width: 100%;
@@ -17,6 +18,16 @@ header {
     font-size: 16px;
 }
 
+.banner-title {
+    color: #FFFFFF;
+    font-size: 72px;
+}
+
+.banner-sub-title {
+    font-size: 18px;
+    color:#FFFFFF;
+    line-height: 24pt;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -44,5 +55,85 @@ button {
     width: 164px;
     height: 44px;
     padding: 0;
+    font-size: 16px;
     font-weight: 600;
+}
+
+.color-white {
+    color: #FFFFFF
+}
+
+.color-green {
+    color: #469165;
+}
+
+.s-title {
+    display: flex;
+    /* border: 1px solid red; */
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-weight:500;
+    height: 35px;
+    width: 229px;
+    margin: 0px auto;
+    background-color: #FFFFFF;
+    border-radius: 1000px;
+    color: #469165;
+    font-size: 16px;
+}
+
+
+
+.banner {
+    background-image: url(/assets/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 624px;
+    padding: 70px 120px 134px;
+
+    text-align: center;
+}
+
+.btn-box-root{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.btn-box-1 {
+    display: flex;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    background-color: #469165;
+    width: 251px;
+    height: 52px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    gap: 10px;
+}
+
+.btn-box-1 img {
+    width: 20px;
+    height: 20px;
+}
+
+.btn-box-2 {
+    display: flex;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    width: 198px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    gap: 10px;
+}
+
+.btn-box-2 img {
+    width: 20px;
+    height: 20px;    
 }
