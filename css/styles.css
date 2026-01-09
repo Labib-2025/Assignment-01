@@ -10,6 +10,10 @@
   font-optical-sizing: auto;  
 }
 
+body {
+    background-color: rgb(244, 244, 244);
+}
+
 
 header {
     width: 100%;
@@ -158,5 +162,73 @@ ul :hover {
 .btn-box-2:hover {
     background-color: gray;
     cursor: pointer;    
+}
+
+.title-sect {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.title-sect h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.title-sect p {
+    color: #627382;
+    font-size: 16px;
+}
+
+.root-note {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 44px auto;
+    gap: 10px;
+    width: 90%;    
+}
+
+.notes-contain {
+    margin-top: 44px;
+}
+
+.notes-contain{    
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.notes-contain h3{
+    font-size: 24px;
+    margin: 16px auto;
+}
+
+.notes-contain p{
+    color: #627382;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background-color: #F95555;
+}
+
+.icon-container img {
+    margin: 0 auto;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+}
+
+.notes {
+    width: 322px;
+    height: 300px;
+    padding: 24px;
+    background-color: white;
+    border-radius: 8px;    
 }
 
