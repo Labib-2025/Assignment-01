@@ -44,10 +44,18 @@ ul {
 ul a {
     text-decoration: none;
     color: black;
+       
+}
+
+ul :hover {
+    border-bottom: 2px solid #2ecc71;
+    color: #2ecc71;
 }
 
 
-button {
+
+
+.get-button {
     background-color: #469165;
     color: #FFFFFF;
     border-radius: 4px;
@@ -59,8 +67,9 @@ button {
     font-weight: 600;
 }
 
-.color-white {
-    color: #FFFFFF
+.get-button:hover {
+    background-color: #357a52;
+    cursor: pointer;
 }
 
 .color-green {
@@ -122,6 +131,11 @@ button {
     height: 20px;
 }
 
+.btn-box-1:hover {
+    background-color: #357a52;
+    cursor: pointer;    
+}
+
 .btn-box-2 {
     display: flex;
     font-size: 16px;
@@ -132,9 +146,17 @@ button {
     justify-content: center;
     border-radius: 4px;
     gap: 10px;
+    background-color: transparent;
+
 }
 
 .btn-box-2 img {
     width: 20px;
     height: 20px;    
 }
+
+.btn-box-2:hover {
+    background-color: gray;
+    cursor: pointer;    
+}
+
