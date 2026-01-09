@@ -4,8 +4,17 @@
     box-sizing: border-box;
 }
 
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;  
+}
+
 header {
+    width: 100%;
     margin: 0px auto;
+    padding: 16px 120px;
+    font-size: 16px;
 }
 
 nav {
@@ -19,4 +28,21 @@ ul {
     align-items: center;
     gap: 25px;
     list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+}
+
+
+button {
+    background-color: #469165;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: none;    
+    width: 164px;
+    height: 44px;
+    padding: 0;
+    font-weight: 600;
 }
